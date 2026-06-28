@@ -1,17 +1,29 @@
 # AI Investment Research Agent
 
-An AI-powered web application that analyzes companies and provides investment recommendations using Groq LLM.
+An AI-powered investment research web application that analyzes companies and provides investment recommendations using Groq LLM.
 
-## Features
+## 🚀 Live Demo
+
+🔗 https://ai-investment-research-agent-a4svrdg6b-tamanna4.vercel.app/
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/tamannamonga/ai-investment-research-agent
+
+---
+
+## ✨ Features
 
 - AI-powered company analysis
 - Investment recommendation (Invest / Pass)
 - Financial health overview
 - Company strengths and risks
-- Modern responsive UI
-- Markdown formatted reports
+- Clean and responsive UI
+- Markdown-formatted AI reports
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 - Next.js
 - React
@@ -19,39 +31,64 @@ An AI-powered web application that analyzes companies and provides investment re
 - Tailwind CSS
 - Groq API
 - React Markdown
+- Vercel
 
-## Installation
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tamannamonga/ai-investment-research-agent.git
+```
+
+Install dependencies:
 
 ```bash
 npm install
-npm run dev
 ```
-
-## Environment Variables
 
 Create a `.env.local` file:
 
 ```env
-GROQ_API_KEY=YOUR_API_KEY
+GROQ_API_KEY=YOUR_GROQ_API_KEY
 ```
 
-## Project Structure
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
 
 ```
 app/
-│
 ├── api/
 │   └── analyze/
 │       └── route.ts
-│
-├── page.tsx
 ├── globals.css
-└── layout.tsx
+├── layout.tsx
+└── page.tsx
 ```
 
-## Future Improvements
+---
+
+## 📌 Future Improvements
 
 - Live stock market data
-- Yahoo Finance integration
-- Historical stock charts
+- Historical stock price charts
 - Company comparison
+- Portfolio tracking
+- Financial news integration
+
+---
+
+## 👩‍💻 Author
+
+**Tamanna Monga**
+
+GitHub: https://github.com/tamannamonga
